@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+        <script src="{{ url_for('static', filename='index.js') }}"></script>
+        <title>Chat Room</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <style media="screen">
+          .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: lightgreen;
+            color: white;
+            text-align: center;
+            padding: 0.5%;
+          }
+          #sent{
+            background-color: pink;
+            width: max-content;
+            margin: 0.5%;
+            border: 1px solid;
+            border-color: purple;
+            padding: 0.5%;
+          }
+          #received{
+            float: right;
+            background-color: lightgrey;
+            width: max-content;
+            margin: 0.5%;
+            border: 1px solid;
+            border-color: purple;
+            padding: 0.5%;
+          }
+          #name{
+            width: 60%;
+          }
+          #bttn{
+            background-color: #abeb34;
+            border-color: white;
+            color: green;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="sent"></div>
+
+        <div id="received"></div>
+
+        <div class="footer">
+          <p>
+            <form id="form">
+              <input id="name" autocomplete="off" autofocus placeholder="Type Your Message Here" type="text">
+              <input id="bttn" type="submit" value="Send">
+            </form>
+          </p>
+        </div>
+
+    </body>
+</html>

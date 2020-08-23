@@ -1,0 +1,5 @@
+cd\
+cd C:\Users\arpad\Documents\HarvardX_CS50W\7Django\project2
+set FLASK_APP=application.py
+set FLASK_DEBUG=1
+flask run
