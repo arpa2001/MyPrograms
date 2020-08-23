@@ -1,0 +1,50 @@
+    'No. selection
+    L = Len(NoTxt.Text)
+    Dim N$(3), T, M(3)
+    MsgBox "ok1"
+    c = 0
+    i = 1
+    Do While (i <= L)
+        MsgBox "ok2"
+        T = Mid$(NoTxt.Text, 1, i)
+        MsgBox "ok3"
+        If T = " " Or T = "," Then
+            MsgBox "ok4"
+            Do While (T = " " Or T = ",")
+                i = i + 1
+                T = Mid$(NoTxt.Text, 1, i)
+            Loop
+            c = c + 1
+        Else
+            MsgBox "ok5"
+            N$(c) = N$(c) & T
+            i = i + 1
+        End If
+    Loop
+    'No. selection
+    MsgBox "ok6"
+    For k = 0 To c
+        M(k) = Val(N$(k))
+    Next
+    'HCF
+    Dim w, y, z, r
+    y = 1
+    w = 0
+    Do While (y <= c)
+        MsgBox "ok"
+        If M(y) > M(w) Then
+            z = M(y)
+            M(y) = M(w)
+            M(w) = z
+        End If
+        r = M(w) Mod M(y)
+        Do While (r <> 0)
+            MsgBox "ok"
+            M(w) = M(y)
+            M(y) = r
+            r = M(w) Mod M(y)
+        Loop
+        MsgBox "ok"
+        HcfTxt.Text = M(y)
+        y = y + 1
+    Loop
