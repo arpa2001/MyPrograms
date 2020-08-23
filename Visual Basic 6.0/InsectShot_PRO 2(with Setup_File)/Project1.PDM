@@ -1,0 +1,311 @@
+[Root]
+Most Recent Package=Setup Insect_Shot 2.0
+
+
+[Package|Setup Insect_Shot 1.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup
+
+[Package|Setup Insect_Shot 1.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup Insect_Shot 1.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup Insect_Shot 1.0|Files Found]
+
+[Package|Setup Insect_Shot 1.0|Files Released]
+srchui.dll=
+
+[Package|Setup Insect_Shot 1.0|Missing Dependency Information]
+C:\WINDOWS\system32\DTCRT.DLL=
+C:\WINDOWS\system32\FM20.DLL=
+C:\WINDOWS\system32\daxctle.ocx=
+C:\WINDOWS\system32\mplay32.exe=
+C:\WINDOWS\system32\sndrec32.exe=
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=
+C:\Program Files\Microsoft Office\Office12\GRAPH.EXE=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Setup Insect_Shot 1.0|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSFLXGRD.OCX=
+C:\WINDOWS\system32\MSBIND.DLL=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Setup Insect_Shot 1.0|Files Added]
+
+[Package|Setup Insect_Shot 1.0|Files Removed]
+c:\program files\microsoft office\office12\excel.exe=
+
+[Package|Setup Insect_Shot 1.0|Files In Project]
+C:\PRO_FILES\InsectShot_PRO_2\Insect Shot.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Program Files\Microsoft Office\Office12\GRAPH.EXE=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=No
+C:\WINDOWS\system32\sndrec32.exe=Yes
+C:\WINDOWS\system32\mplay32.exe=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\daxctle.ocx=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\FM20.DLL=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\DTCRT.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Setup Insect_Shot 1.0|Configure Registry Files]
+Applicable=No
+
+[Package|Setup Insect_Shot 1.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup Insect_Shot 1.0|Install Locations]
+C:\PRO_FILES\InsectShot_PRO_2\Insect Shot.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\GRAPH.EXE=$(AppPath)
+C:\WINDOWS\system32\sndrec32.exe=$(AppPath)
+C:\WINDOWS\system32\mplay32.exe=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\daxctle.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FM20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DTCRT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=$(AppPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Setup Insect_Shot 1.0|Configure Shared Files]
+Applicable=Yes
+C:\PRO_FILES\InsectShot_PRO_2\Insect Shot.exe=No
+C:\Program Files\Microsoft Office\Office12\GRAPH.EXE=No
+C:\WINDOWS\system32\sndrec32.exe=No
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=No
+
+[Package|Setup Insect_Shot 1.0|Distribution]
+Type=multi
+Size=2.88 MB
+Title=Insect Shot
+
+[Package|Setup Insect_Shot 1.0|IconGroups]
+Group0=Insect Shot
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Setup Insect_Shot 1.0|Insect Shot]
+Icon1="Insect Shot.exe"
+Title1=Insect Shot
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup Insect_Shot 1.0|Package]
+PackageFolder=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup
+ProjectFolder=C:\PRO_FILES\InsectShot_PRO_2
+ServerSideCab=
+File1=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\setup.exe
+File2=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\Setup.Lst
+File3=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\Insect1.CAB
+File4=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\Insect2.CAB
+File5=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\Insect3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Setup Insect_Shot 2.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup
+
+[Package|Setup Insect_Shot 2.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup Insect_Shot 2.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup Insect_Shot 2.0|Files Found]
+
+[Package|Setup Insect_Shot 2.0|Files Released]
+srchui.dll=
+
+[Package|Setup Insect_Shot 2.0|Missing Dependency Information]
+C:\WINDOWS\system32\DTCRT.DLL=
+C:\WINDOWS\system32\FM20.DLL=
+C:\WINDOWS\system32\daxctle.ocx=
+C:\WINDOWS\system32\mplay32.exe=
+C:\WINDOWS\system32\sndrec32.exe=
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=
+C:\Program Files\Microsoft Office\Office12\GRAPH.EXE=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|Setup Insect_Shot 2.0|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSFLXGRD.OCX=
+C:\WINDOWS\system32\MSBIND.DLL=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Setup Insect_Shot 2.0|Files Added]
+
+[Package|Setup Insect_Shot 2.0|Files Removed]
+c:\program files\microsoft office\office12\excel.exe=
+
+[Package|Setup Insect_Shot 2.0|Files In Project]
+C:\PRO_FILES\InsectShot_PRO_2\Insect Shot.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Program Files\Microsoft Office\Office12\GRAPH.EXE=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=No
+C:\WINDOWS\system32\sndrec32.exe=Yes
+C:\WINDOWS\system32\mplay32.exe=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\daxctle.ocx=Yes
+C:\WINDOWS\system32\MSCHRT20.OCX=Yes
+C:\WINDOWS\system32\FM20.DLL=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\DTCRT.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Setup Insect_Shot 2.0|Configure Registry Files]
+Applicable=No
+
+[Package|Setup Insect_Shot 2.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup Insect_Shot 2.0|Install Locations]
+C:\PRO_FILES\InsectShot_PRO_2\Insect Shot.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\GRAPH.EXE=$(AppPath)
+C:\WINDOWS\system32\sndrec32.exe=$(AppPath)
+C:\WINDOWS\system32\mplay32.exe=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\daxctle.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FM20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DTCRT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=$(AppPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Setup Insect_Shot 2.0|Configure Shared Files]
+Applicable=Yes
+C:\PRO_FILES\InsectShot_PRO_2\Insect Shot.exe=No
+C:\Program Files\Microsoft Office\Office12\GRAPH.EXE=No
+C:\WINDOWS\system32\sndrec32.exe=No
+C:\Program Files\Microsoft Office\Office12\MSCAL.OCX=No
+
+[Package|Setup Insect_Shot 2.0|Distribution]
+Type=multi
+Size=2.88 MB
+Title=Insect Shot
+
+[Package|Setup Insect_Shot 2.0|Package]
+PackageFolder=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup
+ProjectFolder=C:\PRO_FILES\InsectShot_PRO_2
+ServerSideCab=
+File1=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\setup.exe
+File2=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\Setup.Lst
+File3=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\Insect1.CAB
+File4=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\Insect2.CAB
+File5=C:\PRO_FILES\InsectShot_PRO_2\Insect_Shot Setup\Insect3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Setup Insect_Shot 2.0|IconGroups]
+Group0=Insect Shot
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Setup Insect_Shot 2.0|Insect Shot]
+Icon1="Insect Shot.exe"
+Title1=Insect Shot
+StartIn1=$(AppPath)
+Key1=Icon1

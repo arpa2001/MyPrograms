@@ -1,0 +1,47 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=2915328
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="Insect*.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"Insect Shot.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"MSCOMCTL.OCX"
+"MSCOMCT2.OCX"
+"COMCT332.OCX"
+"MSADODC.OCX"
+"msstdfmt.dll"
+"msado20.tlb"
+"GRAPH.EXE"
+"sndrec32.exe"
+"mplay32.exe"
+"DBGRID32.OCX"
+"DBLIST32.OCX"
+"daxctle.ocx"
+"MSCHRT20.OCX"
+"FM20.DLL"
+"MSDATREP.OCX"
+"MSBIND.DLL"
+"MSFLXGRD.OCX"
+"MSCOMM32.OCX"
+"DTCRT.DLL"
+"MSCAL.OCX"
+"MSDATGRD.OCX"
+"MSDATLST.OCX"
+"COMDLG32.OCX"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
