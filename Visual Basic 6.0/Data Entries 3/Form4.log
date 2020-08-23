@@ -1,0 +1,46 @@
+Line 186: Class MSComctlLib.ImageList of control ImageList1 was not a loaded control class.
+Line 224: Class MSComctlLib.Toolbar of control Toolbar1 was not a loaded control class.
+Line 270: Class MSAdodcLib.Adodc of control Adodc1 was not a loaded control class.
+Line 189: The property name _ExtentX in ImageList1 is invalid.
+Line 190: The property name _ExtentY in ImageList1 is invalid.
+Line 192: The property name ImageWidth in ImageList1 is invalid.
+Line 193: The property name ImageHeight in ImageList1 is invalid.
+Line 194: The property name MaskColor in ImageList1 is invalid.
+Line 195: The property name _Version in ImageList1 is invalid.
+Line 222: The property name Images in ImageList1 is invalid.
+Line 231: The property name _ExtentX in Toolbar1 is invalid.
+Line 232: The property name _ExtentY in Toolbar1 is invalid.
+Line 233: The property name ButtonWidth in Toolbar1 is invalid.
+Line 234: The property name ButtonHeight in Toolbar1 is invalid.
+Line 236: The property name TextAlignment in Toolbar1 is invalid.
+Line 237: The property name ImageList in Toolbar1 is invalid.
+Line 238: The property name _Version in Toolbar1 is invalid.
+Line 267: The property name Buttons in Toolbar1 is invalid.
+Line 224: Property MouseIcon in Toolbar1 could not be set.
+Line 276: The property name _ExtentX in Adodc1 is invalid.
+Line 277: The property name _ExtentY in Adodc1 is invalid.
+Line 278: The property name ConnectMode in Adodc1 is invalid.
+Line 279: The property name CursorLocation in Adodc1 is invalid.
+Line 280: The property name IsolationLevel in Adodc1 is invalid.
+Line 281: The property name ConnectionTimeout in Adodc1 is invalid.
+Line 282: The property name CommandTimeout in Adodc1 is invalid.
+Line 283: The property name CursorType in Adodc1 is invalid.
+Line 284: The property name LockType in Adodc1 is invalid.
+Line 285: The property name CommandType in Adodc1 is invalid.
+Line 286: The property name CursorOptions in Adodc1 is invalid.
+Line 287: The property name CacheSize in Adodc1 is invalid.
+Line 288: The property name MaxRecords in Adodc1 is invalid.
+Line 289: The property name BOFAction in Adodc1 is invalid.
+Line 290: The property name EOFAction in Adodc1 is invalid.
+Line 291: The property name ConnectStringType in Adodc1 is invalid.
+Line 295: The property name Orientation in Adodc1 is invalid.
+Line 297: The property name Connect in Adodc1 is invalid.
+Line 298: The property name OLEDBString in Adodc1 is invalid.
+Line 299: The property name OLEDBFile in Adodc1 is invalid.
+Line 300: The property name DataSourceName in Adodc1 is invalid.
+Line 301: The property name OtherAttributes in Adodc1 is invalid.
+Line 302: The property name UserName in Adodc1 is invalid.
+Line 303: The property name Password in Adodc1 is invalid.
+Line 304: The property name RecordSource in Adodc1 is invalid.
+Line 305: The property name Caption in Adodc1 is invalid.
+Line 315: The property name _Version in Adodc1 is invalid.
