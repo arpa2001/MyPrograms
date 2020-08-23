@@ -1,4 +1,3 @@
 # My Programs
 
-This Repository has all the Programs and applications I have worked on. 
-It consists of codes in various Languages.
+This Folders have files all coded with Visual Basic 6.0
