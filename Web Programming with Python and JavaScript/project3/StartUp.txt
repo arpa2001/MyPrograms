@@ -1,0 +1,3 @@
+cd\
+cd C:\Users\arpad\Documents\HarvardX_CS50W\10Scalability\project3
+python manage.py runserver
